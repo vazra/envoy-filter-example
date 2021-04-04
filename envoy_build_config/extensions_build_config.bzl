@@ -11,21 +11,20 @@ EXTENSIONS = {
     "envoy.transport_sockets.raw_buffer":               "@envoy//source/extensions/transport_sockets/raw_buffer:config",
 
 # other
-    "envoy.access_loggers.stream":                      "//source/extensions/access_loggers/stream:config",
-    "envoy.filters.network.http_connection_manager":    "//source/extensions/filters/network/http_connection_manager:config",
-    "envoy.filters.http.router":                        "//source/extensions/filters/http/router:config",
-    "envoy.filters.listener.tls_inspector":             "//source/extensions/filters/listener/tls_inspector:config",
+    "envoy.access_loggers.stream":                      "@envoy//source/extensions/access_loggers/stream:config",
+    "envoy.filters.network.http_connection_manager":    "@envoy//source/extensions/filters/network/http_connection_manager:config",
+    "envoy.filters.http.router":                        "@envoy//source/extensions/filters/http/router:config",
+    "envoy.filters.listener.tls_inspector":             "@envoy//source/extensions/filters/listener/tls_inspector:config",
 
 
     #
     # Transport sockets
     #
 
-    "envoy.transport_sockets.alts":                     "//source/extensions/transport_sockets/alts:config",
-    "envoy.transport_sockets.upstream_proxy_protocol":  "//source/extensions/transport_sockets/proxy_protocol:upstream_config",
-    "envoy.transport_sockets.raw_buffer":               "//source/extensions/transport_sockets/raw_buffer:config",
-    "envoy.transport_sockets.tap":                      "//source/extensions/transport_sockets/tap:config",
-    "envoy.transport_sockets.starttls":                 "//source/extensions/transport_sockets/starttls:config",
+    "envoy.transport_sockets.alts":                     "@envoy//source/extensions/transport_sockets/alts:config",
+    "envoy.transport_sockets.upstream_proxy_protocol":  "@envoy//source/extensions/transport_sockets/proxy_protocol:upstream_config",
+    "envoy.transport_sockets.tap":                      "@envoy//source/extensions/transport_sockets/tap:config",
+    "envoy.transport_sockets.starttls":                 "@envoy//source/extensions/transport_sockets/starttls:config",
 
 
     #
