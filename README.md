@@ -25,6 +25,15 @@ To run the regular Envoy tests from this project:
 
 `bazel test @envoy//test/...`
 
+## Debug
+
+`./tools/vscode/refresh_compdb.sh`
+
+`./tools/vscode/generate_debug_config.py //:envoy --args "-c config/sample.yaml"`
+
+
+
+
 ## How it works
 
 The [Envoy repository](https://github.com/envoyproxy/envoy/) is provided as a submodule.

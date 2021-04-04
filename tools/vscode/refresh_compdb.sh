@@ -6,4 +6,5 @@
 TEST_TMPDIR=${BUILD_DIR:-/tmp}/envoy-compdb tools/gen_compilation_database.py
 
 # Kill clangd to reload the compilation database
-killall -v /opt/llvm/bin/clangd
+killall -v /usr/bin/clangd
+# killall -v /opt/llvm/bin/clangd
