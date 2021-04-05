@@ -1,4 +1,4 @@
-# Official envoy extensions used in datafi-edge-server
+# Official envoy extensions used 
 
 EXTENSIONS = {
     #

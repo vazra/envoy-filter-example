@@ -36,7 +36,7 @@ private:
  * Static registration for the echo filter. @see RegisterFactory.
  */
 REGISTER_FACTORY(EchoConfigFactory,
-                 Server::Configuration::NamedNetworkFilterConfigFactory){"envoy.echo"};
+                 Server::Configuration::NamedNetworkFilterConfigFactory){"custom.example.echo"};
 
 } // namespace Echo
 } // namespace NetworkFilters
